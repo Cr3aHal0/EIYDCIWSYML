@@ -39,7 +39,7 @@ public class Client {
 
             connection.start();
 
-            //TEST
+            //TEST : should not be successful according to the server rules
             MyMessage infos = new MyMessage();
             infos.put("machineId", "100");
             infos.put("action", "login");
